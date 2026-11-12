@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="hi">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Entropic System — Swag ka darwaza</title>
+<meta name="description" content="Entropic System — Seetal ke saare apps ek jagah: Trader, Hub, Studio, Suno.">
+<style>
+  :root{
+    --bg:#0a0c10; --card:#12161d; --line:#1f2630;
+    --txt:#e8edf4; --dim:#93a0b1; --acc:#38e07b; --acc2:#4a9eff;
+  }
+  *{box-sizing:border-box}
+  body{
+    margin:0; background:radial-gradient(1200px 600px at 50% -10%, #16202c 0%, var(--bg) 60%);
+    color:var(--txt); font-family:system-ui,-apple-system,"Segoe UI",Roboto,sans-serif;
+    min-height:100vh; padding:22px 16px 40px;
+  }
+  .wrap{max-width:720px;margin:0 auto}
+  header{text-align:center;margin-bottom:26px}
+  .ring{
+    width:62px;height:62px;border-radius:50%;margin:0 auto 14px;
+    background:conic-gradient(from 200deg,var(--acc),var(--acc2),var(--acc));
+    display:flex;align-items:center;justify-content:center;
+    box-shadow:0 0 30px rgba(56,224,123,.25);
+  }
+  .ring span{
+    width:48px;height:48px;border-radius:50%;background:#0a0c10;
+    display:flex;align-items:center;justify-content:center;
+    font-weight:800;font-size:22px;color:var(--acc);
+  }
+  h1{font-size:1.5rem;margin:0 0 6px;letter-spacing:-.02em}
+  .sub{color:var(--dim);font-size:.92rem;margin:0}
+  .grid{display:grid;gap:12px;grid-template-columns:1fr}
+  @media(min-width:560px){.grid{grid-template-columns:1fr 1fr}}
+  a.card{
+    display:block;text-decoration:none;color:inherit;background:var(--card);
+    border:1px solid var(--line);border-radius:16px;padding:16px 16px 14px;
+    transition:transform .15s ease,border-color .15s ease;
+  }
+  a.card:active{transform:scale(.985)}
+  a.card:hover{border-color:#2e3a48}
+  .t{display:flex;align-items:center;gap:8px;font-weight:650;font-size:1rem;margin-bottom:5px}
+  .t .dot{width:8px;height:8px;border-radius:50%;background:var(--acc);box-shadow:0 0 8px var(--acc)}
+  .d{color:var(--dim);font-size:.85rem;line-height:1.45}
+  .tag{font-size:.68rem;color:#0a0c10;background:var(--acc);border-radius:999px;padding:2px 7px;font-weight:700;margin-left:auto}
+  footer{margin-top:26px;color:#6b7787;font-size:.78rem;text-align:center;line-height:1.6}
+  .note{
+    margin-top:18px;background:#101720;border:1px dashed #25313f;border-radius:14px;
+    padding:12px 14px;color:var(--dim);font-size:.82rem;line-height:1.5;
+  }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header>
+    <div class="ring"><span>S</span></div>
+    <h1>Entropic System</h1>
+    <p class="sub">Ek darwaza — Seetal ke saare apps ek jagah</p>
+  </header>
+
+  <div class="grid">
+    <a class="card" href="https://bhupendarsingh785.github.io/seetal-trader/">
+      <div class="t"><i class="dot"></i>Trader <span class="tag">LIVE</span></div>
+      <div class="d">Live market pulse, opening range breakout, entry / stop / target, paper trades ka hisab.</div>
+    </a>
+
+    <a class="card" href="https://bhupendarsingh785.github.io/seetal-trader/hub.html">
+      <div class="t"><i class="dot"></i>Hub</div>
+      <div class="d">Saare cards + live status ek page par. Studio Pro sabse pehle.</div>
+    </a>
+
+    <a class="card" href="https://bhupendarsingh785.github.io/seetal-trader/studio-v10.html">
+      <div class="t"><i class="dot"></i>Studio v10</div>
+      <div class="d">File list, editor, build, run, AI aur API panel — sab ek jagah.</div>
+    </a>
+
+    <a class="card" href="https://bhupendarsingh785.github.io/seetal-trader/doctor.html">
+      <div class="t"><i class="dot"></i>Doctor</div>
+      <div class="d">Deep check, score /100 aur AI ilaaj. Jo toota ho use theek karta hai.</div>
+    </a>
+
+    <a class="card" href="https://bhupendarsingh785.github.io/suno-assistant/">
+      <div class="t"><i class="dot"></i>Suno</div>
+      <div class="d">Awaaz se phone control — mic dabao, Hindi mein bolo, kaam ho jaye.</div>
+    </a>
+
+    <a class="card" href="https://bhupendarsingh785.github.io/seetal-trader/seetal-app.html">
+      <div class="t"><i class="dot"></i>Seetal App</div>
+      <div class="d">Ek app me sab — Home, Trader, Studio, Builder, Doctor, Notes, Vault. Installable.</div>
+    </a>
+  </div>
+
+  <div class="note">
+    Yeh naya darwaza hai — purane link ke bharose nahi. Dono ek hi system par jaate hain, par yeh page alag repo se chalta hai.
+  </div>
+
+  <footer>
+    Entropic System · bhupendarsingh785<br>
+    Data free public feeds se aata hai — delay ho sakta hai. Yeh signal tool hai, guarantee nahi.
+  </footer>
+</div>
+</body>
+</html>
